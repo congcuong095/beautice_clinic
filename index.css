@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --primary-text-color: #091156;
+    --second-text-color: #8B8B8B;
+    --primary-color: #FF64AE;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Header */
+.header {
+    position: fixed;
+    max-width: 1140px;
+    width: 100%;
+    height: 63px;
+    left: 150px;
+    top: 41px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    justify-self: flex-start;
+}
+
+.header-logo__img {
+    height: 63px;
+    width: 258px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-menu {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 52px;
+}
+
+.header-menu__page {
+    color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-menu__page+.header-menu__page {
+    margin-left: 45px;
+}
+
+.header-menu__page.active {
+    color: #414880;
+}
+
+.header-menu__page--icon {
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.header-btn {
+    justify-self: flex-end;
+}
+
+.header-btn__item {
+    width: 158px;
+    height: 52px;
+    background: #FF64AE;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+/* Slider */
+.slider {}
+
+.services {}
+
+.about {}
+
+.team {}
+
+.contact {}
+
+.footer {}
