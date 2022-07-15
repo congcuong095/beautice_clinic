@@ -16,24 +16,24 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="/assets/img/Footer_Logo.png" alt="Clinic & Beauty" class="header-logo__img">
+        </div>
+        <div class="header-menu">
+            <a href="/" class="header-menu__page active">Home<i
+                    class="fa-solid fa-plus header-menu__page--icon"></i></a>
+            <a href="/" class="header-menu__page">About</a>
+            <a href="/" class="header-menu__page">Service</a>
+            <a href="/" class="header-menu__page">Gallery</a>
+            <a href="/" class="header-menu__page">Blog</a>
+        </div>
+        <div class="header-contact">
+            <button class="header-contact__btn">Contact</button>
+        </div>
+    </header>
     <div class="wrapper">
         <div class="content">
-            <header class="header">
-                <div class="header-logo">
-                    <img src="/assets/img/Footer_Logo.png" alt="Clinic & Beauty" class="header-logo__img">
-                </div>
-                <div class="header-menu">
-                    <a href="/" class="header-menu__page active">Home<i
-                            class="fa-solid fa-plus header-menu__page--icon"></i></a>
-                    <a href="/" class="header-menu__page">About</a>
-                    <a href="/" class="header-menu__page">Service</a>
-                    <a href="/" class="header-menu__page">Gallery</a>
-                    <a href="/" class="header-menu__page">Blog</a>
-                </div>
-                <div class="header-contact">
-                    <button class="header-contact__btn">Contact</button>
-                </div>
-            </header>
             <div class="slider">
                 <div class="slider-main">
                     <div class="slider-content">
@@ -205,7 +205,7 @@
                         </div>
                         <div class="contact-form__item">
                             <div class="contact-form__box">
-                                <input type="text" placeholder="Email address" class="contact-form__input">
+                                <input type="email" placeholder="Email address" class="contact-form__input">
                             </div>
                         </div>
                         <div class="contact-form__item">
@@ -215,7 +215,8 @@
                         </div>
                         <div class="contact-form__item">
                             <div class="contact-form__box">
-                                <input type="text" placeholder="Your inquiry here" rows="10" cols="30" class="contact-form__input">
+                                <textarea type="text" placeholder="Your inquiry here" rows="10" cols="30"
+                                    class="contact-form__input"></textarea>
                             </div>
                         </div>
                         <div class="contact-form__item">
@@ -226,10 +227,84 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer"></footer>
         </div>
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-content">
+                    <div class="footer-content__main">
+                        <img src="/assets/img/Footer_Logo.png" class="footer-content__main-img" alt="Beautice">
+                        <div class="footer-content__main-text"><b>Beautice</b> is a Beauty Clinic WordPress Theme.</div>
+                        <div class="footer-content__main-text">
+                            <div class="footer-content__main-info">Baker Steet 101, NY, United States.</div>
+                            <div class="footer-content__main-info">
+                                <span>+521 569 8966.</span>
+                                <a href="/">mail@company.com.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content__info">
+                        <div class="footer-content__info-page">
+                            <div class="footer-content__info-title">Pages</div>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Home
+                            </a>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                About
+                            </a>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Services
+                            </a>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Gallery
+                            </a>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Team
+                            </a>
+                        </div>
+                        <div class="footer-content__info-info">
+                            <div class="footer-content__info-title">Infomations</div>
 
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Terms & conditions
+                            </a>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Privacy policy
+                            </a>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Blog
+                            </a>
+                            <a class="footer-content__info-item" href="/">
+                                <i class="fa-solid fa-caret-right"></i>
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom__social">
+                        <a href="/" class="footer-bottom__social-item"><img src="/assets/img/facebook-f.png" alt=""></a>
+                        <a href="/" class="footer-bottom__social-item"><img src="/assets/img/twitter-f.png" alt=""></a>
+                        <a href="/" class="footer-bottom__social-item"><img src="/assets/img/linkedin-f.png" alt=""></a>
+                        <a href="/" class="footer-bottom__social-item"><img src="/assets/img/youtube-f.png" alt=""></a>
+                        <a href="/" class="footer-bottom__social-item"><img src="/assets/img/instagram-f.png" alt=""></a>
+                    </div>
+                    <div class="footer-bottom__copyright">© AltDesain Studio 2021 - All right reserved.</div>
+                </div>
+            </div>
+        </footer>
     </div>
+    <div class="toTop">
+        <img src="/assets/img/ToTop_Button.png" alt="">
+    </div>
+    <script src="/index.js"></script>
 </body>
 
 </html>
